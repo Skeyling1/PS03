@@ -52,8 +52,4 @@ def word_game():
             break
 
 
-# word_game()
-translator = Translator()
-print(get_english_words())
-word_dict = get_english_words()
-print(translator.translate(word_dict.get("english_words"), "ru"))
+word_game()
